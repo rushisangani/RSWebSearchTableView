@@ -1,8 +1,8 @@
 # RSWebSearchTableView
 
-A TableView with search functionality using API.
+A **TableView** with search functionality using API.
 
-**RSWebSearchTableView** with searchBar as a headerView manages all the stuff related to search using API with minimum effort required. No need to write code for creating UITableView, UISearchBar.
+**RSWebSearchTableView** with searchBar as a headerView manages all the stuff related to search using API with minimum effort required. No need to write code for creating UITableView and UISearchBar.
 
 
 ![Alt text](/Images/image.png?raw=true "Alert 1")
