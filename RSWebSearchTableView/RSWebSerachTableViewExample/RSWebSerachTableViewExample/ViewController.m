@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <UITableViewDelegate>
 
 @end
 
@@ -77,6 +77,14 @@
     /* inform tableview in failure */
     
     [self.tableView didFailToSearch];
+}
+
+#pragma mark- UITableViewDelegate methods
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    /* get selected object here */
+    id selectedObject = [self.tableView.dataSourceArray objectAtIndex:indexPath.row];
 }
 
 - (void)didReceiveMemoryWarning {
